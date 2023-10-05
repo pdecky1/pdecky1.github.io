@@ -1,0 +1,59 @@
+.ContactButton{
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #06004E;
+    color: white;
+}
+
+.ContactButtonMd{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #06004E;
+    color: white;
+}
+
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated {
+    animation: fadeInUp 1s ease-out; 
+    animation-fill-mode: both; 
+  }
+
+  .animated1 {
+    animation: fadeInUp 1.2s ease-out; 
+    animation-fill-mode: both; 
+  }
+
+.box_1 {
+  height: 232px;
+  width: 1362px;
+  background: #06004E;
+  border-radius: 30px;
+}
+
+.box_1_md {
+  height: 232px;
+  width: 956px;
+  background: #06004E;
+  border-radius: 30px;
+}
+
+.logo_s {
+  margin-right: 100px;
+}
+
+.logo_sm {
+  margin-right: 50px;
+}
